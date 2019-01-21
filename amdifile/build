@@ -1,0 +1,2 @@
+gcc -ggdb3 -c -o $1.o $1.c
+gcc -o amdifile amdifile.o amdvdf.o W32trace.o crc.o amddenc.o nettcp.o slst.o

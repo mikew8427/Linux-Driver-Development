@@ -1,0 +1,2 @@
+gcc -c -o $1.o $1.c
+gcc -o amdsrvls amdsrvmn.o amdvdf.o W32trace.o crc.o amddenc.o nettcp.o slst.o
